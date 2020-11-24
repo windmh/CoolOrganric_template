@@ -1663,3 +1663,30 @@ span.totals_price.price {
   transition: all .5s ease;
 }
 /* End cart page */
+
+/* Begin chi tiết sản phẩm page */
+.form_product_content .soluong {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form_product_content .label_sl {
+  margin-bottom: 5px;
+}
+
+.details-product .details-pro .custom-btn-number {
+  height: auto;
+}
+
+.call_phone_buy a {
+  font-weight: 400;
+}
+
+.btn_base:hover {
+  color: #91ad41 !important;
+  border: 1px solid #91ad41;
+  background: #fff !important;
+}
+
+/* End chi tiết sản phẩm page */

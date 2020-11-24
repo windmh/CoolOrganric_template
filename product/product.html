@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CoolOranic</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- quicksand font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Begin header -->
+    <header class="header header-s">
+        <div class="container header-content">
+            <div class="row">
+                <div class="content-header w-100">
+                    <!--Navbar -->
+                    <nav class="navbar navbar-expand-lg p-0 navbar_header">
+                        <!-- logo -->
+                        <div class="col-lg-3 col-md-3 p-0 content_header_logo">
+                            <div class="logo-header">
+                                <a class="" href="../index.html">
+                                    <img src="../img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler nav_bar_btn" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-bars"></span>
+                        </button>
+                        <div class="collapse navbar-collapse wrap_main" id="navbarSupportedContent">
+                            <!-- nav_main -->
+                            <ul class="navbar-nav nav_main">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/index.html">Trang chủ</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/index.html">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="/index.html">Sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="/index.html">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="/index.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                            <!-- cartgroup -->
+                            <ul class="navbar-nav nav_main_left ml-auto">
+                                <div class="cartgroup ">
+                                    <!-- search -->
+                                    <div class="searchion inline-b">
+                                        <span class="visible_index nn"><i class="fas fa-search"></i></span>
+                                        <div class="searchmini">
+                                            <form action="/search" method="get" class="input-group" role="search">
+                                                <input type="text" name="query" value="" autocomplete="off"
+                                                    placeholder="Tìm kiếm..."
+                                                    class="button_gradient input-group-field visible_index">
+                                                <button type="submit" class="visible_index btn ">
+                                                    <span class="fa fa-search"></span>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- login, logout -->
+                                    <div class="inline-b group_accout visible_index">
+                                        <i class="fas fa-user-plus"></i>
+                                        <div class="groupc">
+                                            <a class="btn button_gradient" href="../account/login.html">Đăng nhập</a>
+                                            <a href="../account/register.html">Đăng ký</a>
+                                        </div>
+                                    </div>
+                                    <!-- cart -->
+                                    <div class="header-right">
+                                        <div class="top-cart-contain">
+                                            <div class="mini-cart ">
+                                                <div class="heading-cart cart_header">
+                                                    <a class="img_hover_cart" href="../cart/cart.html" title="Giỏ hàng">
+                                                        <div class="icon_hotline visible_index">
+                                                            <i class="fas fa-shopping-basket"></i>
+                                                            <span class="count_item button_gradient">0</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="top-cart-content">
+                                                    <ul id="cart-sidebar" class="mini-products-list">
+                                                        <div class="no-item">
+                                                            <p>Không có sản phẩm nào trong giỏ hàng.</p>
+                                                        </div>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--/.Navbar -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- BACKGROUND TITLE TOP -->
+    <div class="breadcrumb_background">
+        <div class="title_full">
+            <div class="container">
+                <p class="title_page">Chanh tươi</p>
+            </div>
+        </div>
+        <section class="bread-crumb">
+            <div class="container">
+                <div class="row">
+                    <div class="w-100">
+                        <ul class="breadcrumb breadcrumb_ul">
+                            <li class="home">
+                                <a href="/"><span>Trang chủ</span></a>
+                                <span class="mr_lr">&nbsp;<i class="fa fa-angle-right"></i>&nbsp;</span>
+                            </li>
+
+                            <li><strong><span>Chanh tươi</span></strong></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- BEGIN PROCDUCT INFO -->
+    <div class="container">
+        <div class="row details-product">
+            <div class="product-detail-left product-images col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col_large_default large-image">
+                    <a href="#">
+                        <img class="" src="../img/chanh_tuoi.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 details-pro">
+                <h1 class="title-product">Chanh tươi</h1>
+                <div class="fw w_100">
+                    <div class="group-status">
+                        <span class="first_status">Thương hiệu: <span class="status_name">Đang cập
+                                nhật</span></span>
+                        <span class="first_status status_2"><span class="line_tt hidden-sm">|</span> Tình trạng:
+                            <span class="status_name availabel">
+                                Còn hàng
+                            </span>
+                        </span>
+                    </div>
+                    <div class="reviews_details_product">
+                        <div class="bizweb-product-reviews-badge"></div>
+                    </div>
+                    <div class="price-box">
+                        <span class="special-price">
+                            <span class="price product-price">30.000₫</span>
+                        </span>
+                        <!-- Giá Khuyến mại -->
+                    </div>
+                </div>
+                <div class="product-summary product_description">
+                    <div class="rte description  rte-summary">
+                        <p>Nguồn gốc: Việt Nam</p>
+                        <p>Khối lượng: 1kg/ hộp</p>
+                        <p style="text-align: justify;">Các chuyên gia dinh dưỡng khuyên rằng mỗi ngày bạn hãy uống
+                            1 ly nước chanh tươi ấm pha với mật ong để không ngừng nâng cao sức đề kháng, tăng cường
+                            hệ thống miễn dịch và bảo vệ sức khỏe</p>
+                    </div>
+                </div>
+
+                <div class="form-product">
+                    <form id="add-to-cart-form" class="form-inline">
+                        <div class="form-group form_button_details ">
+                            <div class="form_product_content f-left w_100 ">
+                                <div class="soluong">
+                                    <div class="label_sl">Số lượng:</div>
+                                    <div class="custom input_number_product soluong1">
+                                        <button class="btn_num num_1 button button_qty">-</button>
+                                        <input type="text" name="quantity" value="1" maxlength="2"
+                                            class="prd_quantity">
+                                        <button class="btn_num num_2 button button_qty">+</button>
+                                    </div>
+                                </div>
+                                <div class="count_btn_style">
+                                    <div class="button_actions">
+                                        <button type="submit"
+                                            class="button_gradient btn btn_add_cart btn-cart add_to_cart btn_base">
+                                            <span class="btn-image">
+                                            </span>
+                                            <span class="btn-content">Thêm vào giỏ hàng</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="call_phone_buy f-left w_100">
+                                    <div>
+                                        <span>Gọi đặt mua: <a href="tel:0359329688">
+                                                0359329688
+                                            </a> để nhanh chóng đặt hàng</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BACKGROUND BOTTOM -->
+    <div class="breadcrumb_background breadcrumb_bg_bottom"></div>
+
+    <!-- END FORM LOGIN -->
+    <!-- AND LOGIN -->
+
+    <!-- BEGIN FOOTER -->
+    <footer class="footer">
+        <div class="container footer_content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="widget_first_childs margin-top-50">
+                        <div class="logo_footer" style="margin-bottom: 12px;">
+                            <a href="../index.html" class="logo-wrapper">
+                                <img src="../img/logo.png" alt="logo ">
+                            </a>
+                        </div>
+                        <div class="widget-ft-top">
+                            <div class="hotline_footer">
+                                <ul class="contact padding-0">
+                                    <li class="li_footer_h">
+                                        <span class="txt_content_child">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span class="add">
+                                                30 Phạm Văn Đồng Cầu Giấy, Hà Nội
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="li_footer_h">
+                                        <span class="txt_content_childs">
+                                            <i class="fas fa-mobile-alt"></i> <a class="hai01"
+                                                href="tel:0359329688">0359329688</a>
+                                        </span>
+                                    </li>
+                                    <li class="li_footer_h">
+                                        <span class="txt_content_childs">
+                                            <i class="far fa-envelope"></i> <a
+                                                href="mailto:coolorganic@gmail.com">coolorganic@gmail.com</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 footer_menu">
+                            <div class="widget-ft first">
+                                <h4 class="title-menu">
+                                    <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false"
+                                        data-target="#collapseListMenu01" aria-controls="collapseListMenu01">
+                                        Cẩm nang sử dụng <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="collapseListMenu01">
+                                    <ul class="list-menu">
+                                        <li class="li_menu"><a title="Trang chủ" href="/index.html">Trang chủ</a></li>
+                                        <li class="li_menu"><a title="Giới thiệu" href="/index.html">Giới thiệu</a></li>
+                                        <li class="li_menu"><a title="Sản phẩm" href="/index.html">Sản phẩm</a></li>
+                                        <li class="li_menu"><a title="Tin tức" href="/index.html">Tin tức</a></li>
+                                        <li class="li_menu"><a title="Liên hệ" href="/index.html">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 footer_menu">
+                            <div class="widget-ft first">
+                                <h4 class="title-menu">
+                                    <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false"
+                                        data-target="#collapseListMenu02" aria-controls="collapseListMenu02">
+                                        Chính sách <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="collapseListMenu02">
+                                    <ul class="list-menu">
+                                        <li class="li_menu"><a title="Trang chủ" href="/index.html">Trang chủ</a></li>
+                                        <li class="li_menu"><a title="Giới thiệu" href="/index.html">Giới thiệu</a></li>
+                                        <li class="li_menu"><a title="Sản phẩm" href="/index.html">Sản phẩm</a></li>
+                                        <li class="li_menu"><a title="Tin tức" href="/index.html">Tin tức</a></li>
+                                        <li class="li_menu"><a title="Liên hệ" href="/index.html">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 footer_menu">
+                            <div class="widget-ft first">
+                                <h4 class="title-menu">
+                                    <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false"
+                                        data-target="#collapseListMenu03" aria-controls="collapseListMenu03">
+                                        Dịch vụ <i class="fa fa-plus" aria-hidden="true"></i>
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="collapseListMenu03">
+                                    <ul class="list-menu">
+                                        <li class="li_menu"><a title="Trang chủ" href="/index.html">Trang chủ</a></li>
+                                        <li class="li_menu"><a title="Giới thiệu" href="/index.html">Giới thiệu</a></li>
+                                        <li class="li_menu"><a title="Sản phẩm" href="/index.html">Sản phẩm</a></li>
+                                        <li class="li_menu"><a title="Tin tức" href="/index.html">Tin tức</a></li>
+                                        <li class="li_menu"><a title="Liên hệ" href="/index.html">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- Back-to-top -->
+    <div class="toTop">
+        <a href="#" class="toTopLink cd-top text-replace js-cd-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- toTop -->
+    <script src="../js/util.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
